@@ -1,0 +1,16 @@
+{
+  "name": "tubeline",
+  "private": true,
+  "description": "Intent-based cross-chain settlement into Robinhood Chain.",
+  "license": "MIT",
+  "engines": {
+    "node": "22.x"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present"
+  }
+}
