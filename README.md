@@ -152,11 +152,17 @@ The full plan and what each milestone requires: [`docs/ROADMAP.md`](docs/ROADMAP
 
 ## Security
 
-The contracts are audited before mainnet, and a bug bounty opens at launch. The threat model is in [`docs/SECURITY-MODEL.md`](docs/SECURITY-MODEL.md). Report vulnerabilities privately as described in [`SECURITY.md`](SECURITY.md), never in a public issue.
+The settlement contracts are audited before mainnet, and a bug bounty opens at launch. The threat model is in [`docs/SECURITY-MODEL.md`](docs/SECURITY-MODEL.md). Report vulnerabilities privately as described in [`SECURITY.md`](SECURITY.md), never in a public issue.
 
 ## $TUBE
 
-$TUBE is Tubeline's token on Elysium. The only valid contract address is the one published on [tubeline.space](https://tubeline.space) and by [@tubedelivery](https://x.com/tubedelivery) on X. Any other address, presale or airdrop claiming to be $TUBE is not ours.
+$TUBE is Tubeline's token on Elysium (chain ID 99901):
+
+```
+0xAde5Eb90BF1EC24bFC97d806BDbD338385B80Bcf
+```
+
+It is the only $TUBE contract, the same address published on [tubeline.space](https://tubeline.space) and by [@tubedelivery](https://x.com/tubedelivery) on X. Any other address, presale or airdrop claiming to be $TUBE is not ours.
 
 ## Repository
 
